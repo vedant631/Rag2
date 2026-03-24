@@ -1,0 +1,32 @@
+# API & async
+fastapi
+uvicorn[standard]
+python-multipart
+
+# DB — Postgres
+sqlalchemy[asyncio]
+asyncpg
+psycopg2-binary
+
+# DB — OpenSearch
+opensearch-py[async]
+
+# PDF processing
+pdf2image          # system dep: apt install poppler-utils
+Pillow
+
+# Embeddings (runs in main process)
+sentence-transformers
+
+# Reranker server (run separately on port 5601)
+transformers
+torch
+
+# LangGraph
+langgraph
+
+# HTTP client
+httpx
+
+# Config
+pydantic-settings
